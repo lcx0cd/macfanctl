@@ -1,0 +1,4 @@
+#!/bin/zsh
+set -eu
+PYTHONPATH="/Users/lvchuanxin/macfanctl${PYTHONPATH:+:$PYTHONPATH}" \
+  /opt/homebrew/bin/python3 -m macfanctl "$@"

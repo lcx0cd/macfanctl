@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "macfanctl"
+version = "0.1.0"
+description = "Headless fan control bridge for Macs Fan Control on macOS"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "lvchuanxin" }]
+license = { text = "MIT" }
+classifiers = [
+  "Environment :: MacOS X",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: MacOS :: MacOS X",
+  "Programming Language :: Python :: 3",
+  "Topic :: System :: Hardware",
+  "Topic :: Utilities",
+]
+
+[project.scripts]
+macfanctl = "macfanctl.cli:main"
+
+[tool.setuptools]
+packages = ["macfanctl"]
