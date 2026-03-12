@@ -7,6 +7,8 @@
 Related design note:
 
 - [OpenClaw Capability + Billing Gateway](docs/OPENCLAW_CAPABILITY_BILLING_GATEWAY.md)
+- [Productive Upkeep Manifesto](docs/PRODUCTIVE_UPKEEP_MANIFESTO.md)
+- [Node Credit Primitive](docs/NODE_CREDIT_PRIMITIVE.md)
 
 It does not click UI. It writes the `ActivePreset` preference, restarts `Macs Fan Control`
 in the background, and keeps the app hidden. This lets other tools drive fan state through
