@@ -4,6 +4,10 @@
 
 [中文说明](README.zh-CN.md)
 
+Related design note:
+
+- [OpenClaw Capability + Billing Gateway](docs/OPENCLAW_CAPABILITY_BILLING_GATEWAY.md)
+
 It does not click UI. It writes the `ActivePreset` preference, restarts `Macs Fan Control`
 in the background, and keeps the app hidden. This lets other tools drive fan state through
 a clean CLI while reusing the already-installed privileged helper.
